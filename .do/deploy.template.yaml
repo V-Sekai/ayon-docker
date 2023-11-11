@@ -1,0 +1,8 @@
+spec:
+  name: ayon-dockerfile
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/V-Sekai/ayon-docker.git
+    name: ayon-dockerfile
